@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 28, in script
+    scene fondo2 with face:
+  File "game/script.rpy", line 28, in <module>
+    scene fondo2 with face:
+NameError: name 'face' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 28, in script
+    scene fondo2 with face:
+  File "C:\Users\pablo\Documents\dev\renpy-8.0.3-sdk\renpy\ast.py", line 1654, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "C:\Users\pablo\Documents\dev\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\pablo\Documents\dev\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 28, in <module>
+    scene fondo2 with face:
+NameError: name 'face' is not defined
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.0.3.22090809
+GAME_CHOISE 1.0
+Sun Apr  2 22:24:49 2023
